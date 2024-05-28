@@ -24,7 +24,7 @@ export default function Hero(){
                     className="rounded-sm py-2 px-4 text-black border-2 border-slate-600 "
                     name="email"
                     id="email" />
-                    <Button type="submit" size={'lg'} variant={'default'}>Explore Services</Button>
+                    <Button className="py-5" type="submit" size={'lg'} variant={'default'}>Explore Services</Button>
                 </form>
             </div>
             <div className="w-1/2 h-auto">
