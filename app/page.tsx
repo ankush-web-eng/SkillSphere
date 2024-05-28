@@ -1,12 +1,15 @@
 "use client"
 
+import Animation from "@/components/center/animation";
+import Bottom from "@/components/center/bottom";
+import Floats from "@/components/center/floats";
 import Primary from "@/components/center/primary";
+import Footer from "@/components/layouts/footer";
 import Hero from "@/components/layouts/hero";
 import Navbar from "@/components/layouts/navbar";
 import Secondary  from "@/components/layouts/secondary";
 import Tertiary from "@/components/layouts/tertiary";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -30,6 +33,13 @@ export default function Home() {
       </div>
 
       <Primary />
+      <Floats />
+      <Animation />
+      <Bottom />
+
+      <div className="pt-3 pb-10"></div>
+
+      <Footer />
     </div>
   )
 }
