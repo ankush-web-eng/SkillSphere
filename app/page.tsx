@@ -17,10 +17,10 @@ export default function Home() {
       <Navbar />
       <Hero />
 
-      <div className="py-6 text-4xl flex justify-center text-gray-600 flex-col items-center">
+      <div className="py-6 text-2xl md:text-4xl flex justify-center max-md:px-2 text-gray-600 flex-col items-center">
         <h1>Unlock The Power Of</h1>
         <h1>Collaboration: Skill Sphere</h1>
-        <p className="text-sm text-gray-400 pt-4">Join our network of talented freelancers and unlock new opportunities</p>
+        <p className="text-sm text-center text-gray-400 pt-4">Join our network of talented freelancers and unlock new opportunities</p>
       </div>
 
       <Secondary />
