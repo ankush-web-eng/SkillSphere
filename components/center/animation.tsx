@@ -3,7 +3,11 @@ import { MdArrowOutward } from "react-icons/md";
 export default function Animation() {
   return (
     <div className="py-12 md:px-6 flex flex-col max-md:items-center md:flex-row">
-      <div className="bg-gray-300 h-80 w-80"></div>
+      <div className="bg-gray-300 h-80 w-80">
+        <video className="h-full w-full" autoPlay loop muted>
+          <source src="/Animation.mp4"/>
+        </video>
+      </div>
       <div className="md:w-5/6 w-screen right-0 flex flex-col">
         <div className="flex flex-col text-gray-500 px-12 pt-8">
           <h1 className="py-3 text-2xl font-bold text-gray-500">OUR SKILLS</h1>
