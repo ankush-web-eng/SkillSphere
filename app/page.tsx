@@ -24,12 +24,11 @@ export default function Home() {
         <Navbar />
         <Hero />
 
-        <div className="py-6 text-2xl md:text-4xl flex justify-center max-md:px-2 text-gray-600 flex-col items-center">
+        <div className="md:py-6 py-3 text-2xl md:text-4xl flex justify-center max-md:px-2 text-gray-600 flex-col items-center">
           <h1>Unlock The Power Of</h1>
           <h1>Collaboration: Skill Sphere</h1>
-          <p className="text-sm text-center text-gray-400 pt-4">
-            Join our network of talented freelancers and unlock new
-            opportunities
+          <p className="md:text-lg text-sm text-center text-gray-400 pt-2">
+          Join our network to be a part of exceptional services
           </p>
         </div>
 

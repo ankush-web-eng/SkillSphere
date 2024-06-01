@@ -16,12 +16,14 @@ export default function Floats() {
 
       <div className="flex flex-col items-center justify-around md:h-full md:w-1/3 space-y-10 max-md:py-12">
         <div className="text-gray-400 flex-col flex">
-          <h1 className="text-2xl font-bold text-center text-gray-600">
+          <h1 className="text-2xl font-semibold font-serif text-center text-gray-600">
             OUR WORKS
           </h1>
-          <p className="text-center">
-            ieuwfhnuiewn fejuiawj uwieajhfawfui uiawe fuhawefewaouihwfeu
-            auwiefjuwae fjwafwauiefj ijeawfoiweaīf awefwke
+          <p className="text-center font-sm">
+          We pride ourselves on delivering loving outcomes that drive success for our clients. 
+          </p>
+          <p className="text-center font-semibold">
+          Explore the depth and diversity of our past work
           </p>
         </div>
         <motion.div
