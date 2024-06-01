@@ -44,6 +44,7 @@ export default function Home() {
           initial={{opacity:0}}
           whileInView={{opacity:1}}
           transition={{delay: 0.3, duration: 0.6, ease: 'easeInOut'}}
+          className="max-md:hidden"
           >
           <Tertiary />
         </motion.div>
